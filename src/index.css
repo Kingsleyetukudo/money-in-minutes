@@ -9,5 +9,5 @@
 } */
 
 .menuTrans {
-  @apply after:block after:h-1 after:bg-blue-900  after:w-0 after:transition-all duration-75 hover:after:w-full hover:text-primaryBg;
+  @apply after:block after:h-1 after:bg-blue-900  after:w-0 after:transition-all duration-75 hover:after:w-full hover:text-primaryBg text-xl;
 }

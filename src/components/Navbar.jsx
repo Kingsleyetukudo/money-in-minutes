@@ -17,12 +17,22 @@ const Navbar = () => {
         <div className="">
           <img src={logo} alt="mim-logo" className="max-[990px]:w-40" />
         </div>
-        <div className="flex gap-7 text-textColor text-lg font-medium max-[990px]:hidden">
-          <a href="#">Pay</a>
-          <a href="#">Loan</a>
-          <a href="#">Contact</a>
-          <a href="#">About</a>
-          <a href="#">Career</a>
+        <div className="flex gap-7 text-textColor  font-medium max-[990px]:hidden">
+          <a href="#" className="menuTrans">
+            Pay
+          </a>
+          <a href="#" className="menuTrans">
+            Loan
+          </a>
+          <a href="#" className="menuTrans">
+            Contact
+          </a>
+          <a href="#" className="menuTrans">
+            About
+          </a>
+          <a href="#" className="menuTrans">
+            Career
+          </a>
         </div>
 
         <div className="flex gap-5 items-center max-[990px]:hidden">
@@ -44,14 +54,14 @@ const Navbar = () => {
         </div>
 
         {toggleNav && (
-          <div className="absolute top-0 right-0 h-screen w-full bg-mobileNavBg flex justify-end">
-            <div className="mobile-nav flex flex-col gap-4 bg-slate-200 shadow-lg  p-5 w-96 h-auto text-xl font-medium">
+          <div className="absolute top-0 right-0 h-full w-full bg-mobileNavBg flex justify-end min-[992px]:hidden">
+            <div className="mobile-nav flex flex-col gap-4 bg-slate-200 shadow-lg  p-5 w-96 h-auto font-medium">
               <span className="absolute right-4" onClick={closeMobileNav}>
                 <i className="material-icons text-4xl hover:cursor-pointer">
                   close
                 </i>
               </span>
-              <a href="#" className="menuTrans mt-8">
+              <a href="#" className="menuTrans mt-10">
                 Pay
               </a>
               <a href="#" className="menuTrans">
