@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         primaryBg: "#0F53FA",
         textColor: "#001F18",
+        mobileNavBg: "#b4b8e686",
       },
 
       fontFamily: {
