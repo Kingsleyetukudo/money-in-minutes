@@ -14,6 +14,7 @@ module.exports = {
       height: {
         600: "850px",
         400: "432px",
+        600: "600px",
       },
 
       borderWidth: {
@@ -32,6 +33,10 @@ module.exports = {
 
       fontFamily: {
         body: ["Nunito"],
+      },
+
+      backgroundImage: {
+        bgImage: "url('/src/images/bg-image.png')",
       },
 
       screens: {

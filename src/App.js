@@ -4,6 +4,7 @@ import FourthHero from "./components/FourthHero";
 import LandingHero from "./components/LandingHero";
 import LoanInfo from "./components/LoanInfo";
 import Navbar from "./components/Navbar";
+import SixthHero from "./components/SixthHero";
 import ThirdHero from "./components/ThirdHero";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <CeoMIM />
         <FourthHero />
         <FifthHero />
+        <SixthHero />
         <h1 className="text-red-900 text-center text-5xl">Start here</h1>
       </div>
     </div>
