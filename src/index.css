@@ -11,3 +11,15 @@
 .menuTrans {
   @apply after:block after:h-1 after:bg-blue-900  after:w-0 after:transition-all duration-75 hover:after:w-full hover:text-primaryBg text-xl;
 }
+
+.loan-card {
+  @apply flex flex-col gap-2 newSmallScreen:items-center;
+}
+
+.loan-card h3 {
+  @apply text-2xl font-semibold;
+}
+
+.loan-card p {
+  @apply text-xl font-normal newSmallScreen:text-center;
+}

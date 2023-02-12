@@ -15,9 +15,9 @@ const Navbar = () => {
     <header className=" w-90 m-auto">
       <nav className="flex justify-between items-center py-5 px-2">
         <div className="">
-          <img src={logo} alt="mim-logo" className="max-[990px]:w-40" />
+          <img src={logo} alt="mim-logo" className="navBarRes:w-40" />
         </div>
-        <div className="flex gap-7 text-textColor  font-medium max-[990px]:hidden">
+        <div className="flex gap-7 text-textColor  font-medium navBarRes:hidden">
           <a href="#" className="menuTrans">
             Pay
           </a>
@@ -35,7 +35,7 @@ const Navbar = () => {
           </a>
         </div>
 
-        <div className="flex gap-5 items-center max-[990px]:hidden">
+        <div className="flex gap-5 items-center navBarRes:hidden">
           <a href="#" className="font-medium ">
             Login
           </a>
@@ -45,7 +45,7 @@ const Navbar = () => {
             Sign Up
           </a>
         </div>
-        <div className="min-[992px]:hidden">
+        <div className="secondNav:hidden">
           <i
             className="material-icons text-4xl hover:cursor-pointer"
             onClick={handleMobileNav}>
@@ -54,7 +54,7 @@ const Navbar = () => {
         </div>
 
         {toggleNav && (
-          <div className="absolute top-0 right-0 h-full w-full bg-mobileNavBg flex justify-end min-[992px]:hidden">
+          <div className="absolute top-0 right-0 h-full w-full bg-mobileNavBg flex justify-end secondNav:hidden">
             <div className="mobile-nav flex flex-col gap-4 bg-slate-200 shadow-lg  p-5 w-96 h-auto font-medium">
               <span className="absolute right-4" onClick={closeMobileNav}>
                 <i className="material-icons text-4xl hover:cursor-pointer">
