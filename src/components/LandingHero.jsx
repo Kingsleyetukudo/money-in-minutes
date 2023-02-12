@@ -33,7 +33,7 @@ const LandingHero = () => {
           </div>
         </div>
       </div>
-      <div className="navBarRes:mt-5">
+      <div className="navBarRes:mt-5 navBarRes:order-1">
         <img src={Heropic} alt="" />
       </div>
     </div>

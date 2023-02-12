@@ -13,6 +13,11 @@ module.exports = {
         600: "850px",
       },
 
+      borderWidth: {
+        25: "25px",
+        50: "50px",
+      },
+
       colors: {
         primaryBg: "#0F53FA",
         textColor: "#001F18",
