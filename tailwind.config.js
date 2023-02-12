@@ -22,6 +22,10 @@ module.exports = {
         50: "50px",
       },
 
+      boxShadow: {
+        "3xl": "0px 0px 40px rgba(22, 40, 202, 0.1)",
+      },
+
       colors: {
         primaryBg: "#0F53FA",
         textColor: "#001F18",

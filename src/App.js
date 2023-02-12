@@ -1,5 +1,6 @@
 import CeoMIM from "./components/CeoMIM";
 import FifthHero from "./components/FifthHero";
+import Footer from "./components/Footer";
 import FourthHero from "./components/FourthHero";
 import LandingHero from "./components/LandingHero";
 import LoanInfo from "./components/LoanInfo";
@@ -19,6 +20,7 @@ function App() {
         <FourthHero />
         <FifthHero />
         <SixthHero />
+        <Footer />
         <h1 className="text-red-900 text-center text-5xl">Start here</h1>
       </div>
     </div>
