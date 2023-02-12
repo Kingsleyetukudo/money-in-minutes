@@ -10,16 +10,16 @@ const LoanInfo = () => {
       <div className=" left-0 h-600  absolute newScreen:hidden newSmallScreen:hidden">
         <img src={woman} alt="" className="h-full" />
       </div>
-      <div className="md:w-654 flex flex-col gap-12 mr-10 newSmallScreen:px-5">
-        <h2 className="text-5xl font-bold newSmallScreen:text-center">
+      <div className="md:w-654 flex flex-col gap-12 mr-10 newSmallScreen:px-5 ">
+        <h2 className="text-5xl font-bold newSmallScreen:text-center newSmallScreen:text-2xl text-headingColor">
           Access more Loans with full flexibility, live well
         </h2>
-        <div className="grid grid-cols-2 gap-12 ">
+        <div className="grid grid-cols-2 gap-12 newSmallScreen:flex flex-col">
           <div className="loan-card">
             <div>
               <img src={icon1} alt="" />
             </div>
-            <h3>No unexpected fees</h3>
+            <h3 className="text-headingColor">No unexpected fees</h3>
             <p>
               No admin fees, no late payment fees & definetely no fees for
               paying back early.
@@ -29,7 +29,7 @@ const LoanInfo = () => {
             <div>
               <img src={icon2} alt="" />
             </div>
-            <h3>Extended hours</h3>
+            <h3 className="text-headingColor">Extended hours</h3>
             <p>
               Get a loan any time with app or website available 24 hours a week,
               just when you need us
@@ -39,7 +39,7 @@ const LoanInfo = () => {
             <div>
               <img src={icon3} alt="" />
             </div>
-            <h3>Money in 5mins</h3>
+            <h3 className="text-headingColor">Money in 5mins</h3>
             <p>
               Our loan process is easy, fast and secure. Once approved cash is
               sent to your bank account under 5 minutes
@@ -49,7 +49,7 @@ const LoanInfo = () => {
             <div>
               <img src={icon4} alt="" />
             </div>
-            <h3>Top up loan</h3>
+            <h3 className="text-headingColor">Top up loan</h3>
             <p>
               Need extra cash, when you already have a loan, just apply for a
               top up loan, we have got you.

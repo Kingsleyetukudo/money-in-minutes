@@ -5,7 +5,7 @@ const LandingHero = () => {
   return (
     <div className="secondNav:grid grid-cols-2 p-4">
       <div className="flex gap-7 flex-col justify-center secondNav:ml-16 navBarRes:text-center navBarRes:items-center navBarRes:p-2">
-        <h1 className="md:text-7xl font-bold navBarRes:text-4xl">
+        <h1 className="md:text-7xl font-bold navBarRes:text-4xl text-headingColor">
           Affordable and fast loans for your needs.
         </h1>
         <p className="text-xl font-normal md:w-500">

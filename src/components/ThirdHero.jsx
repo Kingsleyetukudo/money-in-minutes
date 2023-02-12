@@ -5,7 +5,7 @@ const ThirdHero = () => {
   return (
     <div className="secondNav:grid grid-cols-2 w-90 m-auto navBarRes:flex flex-col-reverse gap-8">
       <div className="flex flex-col gap-7 justify-center   navBarRes:p-2">
-        <h2 className="md:text-5xl font-bold navBarRes:text-4xl navBarRes:text-center">
+        <h2 className="md:text-5xl font-bold navBarRes:text-4xl navBarRes:text-center text-headingColor">
           Money when you need it, from anywhere
         </h2>
         <p className="text-xl font-normal md:w-500 navBarRes:text-center navBarRes:w-full">
@@ -14,19 +14,19 @@ const ThirdHero = () => {
           apply and wait, we already have a loan waiting for you.
         </p>
         <ul className="flex flex-col gap-4 navBarRes:items-start navBarRes:text-left">
-          <li className="text-xl font-bold flex gap-2 items-center">
+          <li className="text-xl font-bold flex gap-2 items-center text-headingColor">
             <img src={icon1} alt="" />
             Visit any of our platforms
           </li>
-          <li className="text-xl font-bold flex gap-2 items-center">
+          <li className="text-xl font-bold flex gap-2 items-center text-headingColor">
             <img src={icon1} alt="" />
             Create your account
           </li>
-          <li className="text-xl font-bold flex gap-2 items-center">
+          <li className="text-xl font-bold flex gap-2 items-center text-headingColor">
             <img src={icon1} alt="" />
             Apply for the loan you need
           </li>
-          <li className="text-xl font-bold flex gap-2 items-center">
+          <li className="text-xl font-bold flex gap-2 items-center text-headingColor">
             <img src={icon1} alt="" />
             Your account is instantly credited
           </li>

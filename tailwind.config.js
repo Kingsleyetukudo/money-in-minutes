@@ -7,10 +7,12 @@ module.exports = {
         90: "90%",
         500: "500px",
         654: "654px",
+        400: "400px",
       },
 
       height: {
         600: "850px",
+        400: "432px",
       },
 
       borderWidth: {
@@ -24,6 +26,7 @@ module.exports = {
         mobileNavBg: "#b4b8e686",
         emailBoxBg: "#50E3C1",
         loanColor: "#E9F7FE",
+        headingColor: "#12114D",
       },
 
       fontFamily: {
@@ -35,6 +38,7 @@ module.exports = {
         secondNav: { min: "992px" },
         newScreen: { min: "767px", max: "1128px" },
         newSmallScreen: { max: "767px" },
+        fourthHero: { max: "1000px" },
       },
     },
   },
