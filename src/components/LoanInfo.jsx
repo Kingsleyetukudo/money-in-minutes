@@ -6,8 +6,8 @@ import woman from "../images/woman.jpg";
 import icon5 from "../images/Vector.png";
 const LoanInfo = () => {
   return (
-    <div className="bg-loanColor py-20 flex items-end justify-end relative w-90 m-auto">
-      <div className=" left-0 h-600  absolute newScreen:hidden newSmallScreen:hidden">
+    <div className="bg-loanColor py-20 flex items-end justify-end relative w-90 m-auto md:mt-40">
+      <div className=" left-0 h-850 -top-32 absolute newScreen:hidden newSmallScreen:hidden">
         <img src={woman} alt="" className="h-full" />
       </div>
       <div className="md:w-654 flex flex-col gap-12 mr-10 newSmallScreen:px-5 ">

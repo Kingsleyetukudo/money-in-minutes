@@ -18,14 +18,14 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex flex-col gap-10">
-        <div className="flex justify-between">
+        <div className="flex justify-between flex-wrap gap-10">
           <div>
             <img src={logo} alt="" className="mb-9" />
             <p className="text-lg font-normal text-headingColor">
               © Copyright, 2020. All Rights Reserved
             </p>
           </div>
-          <div className="flex gap-36">
+          <div className="flex gap-36 flex-wrap navBarRes:gap-10">
             <div>
               <h3 className="text-2xl font-semibold text-headingColor mb-8">
                 Legal
@@ -54,7 +54,7 @@ const Footer = () => {
           </div>
         </div>
         <hr />
-        <div className="flex justify-between">
+        <div className="flex justify-between gap-10 flex-wrap ">
           <div>
             <h3 className="text-2xl font-semibold text-headingColor mb-8">
               Address
@@ -64,7 +64,7 @@ const Footer = () => {
               Nigeria.
             </p>
           </div>
-          <div className="flex gap-28">
+          <div className="flex gap-28 flex-wrap navBarRes:gap-10">
             <div>
               <h3 className="text-2xl font-semibold text-headingColor mb-8">
                 Contact
