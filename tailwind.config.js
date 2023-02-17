@@ -40,6 +40,14 @@ module.exports = {
         body: ["Nunito"],
       },
 
+      fontSize: {
+        font50: "50px",
+      },
+
+      lineHeight: {
+        64: "64px",
+      },
+
       backgroundImage: {
         bgImage: "url('/src/images/bg-image.png')",
         aboutImage: "url('/src/images/about-hero-image.png')",
