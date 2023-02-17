@@ -33,6 +33,7 @@ module.exports = {
         emailBoxBg: "#50E3C1",
         loanColor: "#E9F7FE",
         headingColor: "#12114D",
+        aboutBgColor: "#F6FCFF",
       },
 
       fontFamily: {
@@ -41,6 +42,7 @@ module.exports = {
 
       backgroundImage: {
         bgImage: "url('/src/images/bg-image.png')",
+        aboutImage: "url('/src/images/about-hero-image.png')",
       },
 
       screens: {
