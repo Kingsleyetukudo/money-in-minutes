@@ -23,3 +23,42 @@
 .loan-card p {
   @apply text-xl font-normal newSmallScreen:text-center;
 }
+
+.hi-slide {
+  @apply relative w-654 h-72 rounded-3xl mt-28 mx-auto mb-0;
+}
+
+.hi-slide .hi-next,
+.hi-slide .hi-prev {
+  @apply absolute top-12 w-12 mt-5 rounded-3xl text-center cursor-pointer bg-white text-black transition-all text-xl font-bold;
+}
+
+.hi-slide .hi-next:hover,
+.hi-slide .hi-prev {
+  @apply opacity-100 bg-white;
+}
+
+.hi-slide .hi-prev {
+  @apply left-14;
+}
+.hi-slide .hi-prev:before {
+  @apply content-['<'];
+}
+.hi-slide .hi-next {
+  @apply -right-14;
+}
+.hi-slide .hi-next:before {
+  @apply content-['>'];
+}
+
+.hi-slide > ul {
+  @apply list-none relative w-654 h-72 m-0 p-0;
+}
+
+.hi-slide > ul > li {
+  @apply overflow-hidden absolute z-0 left-96 top-36 w-0 h-0 m-0 p-0 border-white border-solid border-4 bg-white;
+}
+
+.hi-slide > ul > li > img {
+  @apply w-full h-full bg-center;
+}

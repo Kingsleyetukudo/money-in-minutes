@@ -47,6 +47,9 @@ module.exports = {
       lineHeight: {
         64: "64px",
       },
+      spacing: {
+        70: "70%",
+      },
 
       backgroundImage: {
         bgImage: "url('/src/images/bg-image.png')",

@@ -2,6 +2,7 @@ import icon5 from "../images/Vector1.png";
 import logo1 from "../images/google.png";
 import logo2 from "../images/facebook.png";
 import logo3 from "../images/amazon.png";
+import Slider from "../components/Slider";
 export default function About() {
   return (
     <div className="flex flex-col absolute top-0 -z-40 gap-20">
@@ -41,6 +42,8 @@ export default function About() {
           </div>
         </div>
       </div>
+
+      <Slider />
     </div>
   );
 }
