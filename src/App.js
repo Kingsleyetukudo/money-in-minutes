@@ -3,7 +3,7 @@ import About from "./pages/About";
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <Navbar />
       <div className="mt-10 flex flex-col gap-28">
         <About />
